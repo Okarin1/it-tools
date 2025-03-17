@@ -57,10 +57,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       strategies: 'generateSW',
       manifest: {
-        name: 'IT Tools',
-        description: 'Aggregated set of useful tools for developers.',
+        name: 'MY Tools',
+        description: 'Useful tools for me.',
         display: 'standalone',
-        lang: 'fr-FR',
+        lang: 'zh-ZH',
         start_url: `${baseUrl}?utm_source=pwa&utm_medium=pwa`,
         orientation: 'any',
         theme_color: '#18a058',

@@ -76,6 +76,7 @@ declare module 'vue' {
     EmojiPicker: typeof import('./src/tools/emoji-picker/emoji-picker.vue')['default']
     Encryption: typeof import('./src/tools/encryption/encryption.vue')['default']
     EtaCalculator: typeof import('./src/tools/eta-calculator/eta-calculator.vue')['default']
+    FancyTextConverter: typeof import('./src/tools/fancy-text-converter/fancy-text-converter.vue')['default']
     FavoriteButton: typeof import('./src/components/FavoriteButton.vue')['default']
     FormatTransformer: typeof import('./src/components/FormatTransformer.vue')['default']
     GitMemo: typeof import('./src/tools/git-memo/git-memo.vue')['default']

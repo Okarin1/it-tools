@@ -17,6 +17,7 @@ import { tool as jsonViewer } from './json-viewer';
 import { tool as jsonMinify } from './json-minify';
 import { tool as sqlPrettify } from './sql-prettify';
 import { tool as qrCodeGenerator } from './qr-code-generator';
+import { tool as fancyTextConverter } from './fancy-text-converter';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -33,6 +34,7 @@ export const toolsByCategory: ToolCategory[] = [
       textToBinary,
       textToUnicode,
       listConverter,
+      fancyTextConverter,
     ],
   },
   {

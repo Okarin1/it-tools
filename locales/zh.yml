@@ -4,7 +4,7 @@ home:
     favoriteTools: '我的收藏'
     allTools: '全部工具'
     favoritesDndToolTip: '拖放重新排列收藏夹'
-  subtitle: '助力开发人员和 IT 工作者'
+  subtitle: '送报少年自用工具'
   toggleMenu: '切换菜单'
   home: '主页'
   uiLib: 'UI 库'
@@ -388,3 +388,11 @@ tools:
   text-to-binary:
     title: 文本到 ASCII 二进制
     description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
+
+  ascii-text-drawer:
+    title: ASCII 字符转换
+    description: 将普通文本转换为 ASCII 风格的字符。
+
+  fancy-text-converter:
+    title: 花体文本转换
+    description: 将普通文本转换为各种花体样式。

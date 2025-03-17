@@ -4,7 +4,7 @@ home:
     favoriteTools: 'Your favorite tools'
     allTools: 'All the tools'
     favoritesDndToolTip: 'Drag and drop to reorder favorites'
-  subtitle: 'Handy tools for developers'
+  subtitle: 'Useful tools for Okarin'
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
@@ -392,3 +392,11 @@ tools:
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
+
+  ascii-text-drawer:
+    title: ASCII drawer
+    description: Draw ASCII text from normal text.
+
+  fancy-text-converter:
+    title: Fancy Text Converter
+    description: Convert normal text to various fancy styles.
