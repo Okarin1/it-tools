@@ -18,6 +18,7 @@ import { tool as jsonMinify } from './json-minify';
 import { tool as sqlPrettify } from './sql-prettify';
 import { tool as qrCodeGenerator } from './qr-code-generator';
 import { tool as fancyTextConverter } from './fancy-text-converter';
+import { tool as jsonToData } from './json-to-data';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -40,7 +41,6 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Web',
     components: [
-      jsonDiff,
       qrCodeGenerator,
     ],
   },
@@ -49,6 +49,8 @@ export const toolsByCategory: ToolCategory[] = [
     components: [
       jsonViewer,
       jsonMinify,
+      jsonDiff,
+      jsonToData,
       sqlPrettify,
     ],
   },

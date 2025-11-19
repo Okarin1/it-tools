@@ -400,3 +400,12 @@ tools:
   fancy-text-converter:
     title: Fancy Text Converter
     description: Convert normal text to various fancy styles.
+    
+  json-to-data:
+    texts:
+      title-json-converter: JSON Converter
+      title-drag-and-drop-a-json-file-here-or-click-to-select-a-file: Drag and drop a JSON file here, or click to select a file
+      label-paste-your-json-content: Paste your JSON content
+      placeholder-your-json: Your JSON
+    title: JSON to Data
+    description: Convert JSON to CSV, SQL Insert, YAML, Markdown, XML and XLSX

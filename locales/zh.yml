@@ -396,3 +396,12 @@ tools:
   fancy-text-converter:
     title: 花体文本转换
     description: 将普通文本转换为各种花体样式。
+
+  json-to-data:
+    texts:
+      title-json-converter: JSON转换器
+      title-drag-and-drop-a-json-file-here-or-click-to-select-a-file: 将 JSON 文件拖放到此处，或单击以选择文件
+      label-paste-your-json-content: 粘贴您的 JSON 内容
+      placeholder-your-json: 你的 JSON
+    title: JSON 到数据
+    description: 将 JSON 转换为 CSV、SQL 插入、YAML、Markdown、XML 和 XLSX
