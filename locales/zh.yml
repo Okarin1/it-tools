@@ -405,3 +405,30 @@ tools:
       placeholder-your-json: 你的 JSON
     title: JSON 到数据
     description: 将 JSON 转换为 CSV、SQL 插入、YAML、Markdown、XML 和 XLSX
+
+  csv-to-data:
+    title: CSV转数据
+    description: 将CSV文件转换为JSON、YAML、CSV、SQL INSERT、XML或Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL 插入
+      label-csv-comma: CSV（逗号分隔）
+      label-csv-semicolon: CSV（分号分隔）
+      label-csv-tab: CSV（制表符分隔）
+      label-markdown: Markdown
+      label-xml: XML
+      title-csv-converter: CSV转换器
+      label-file: 文件
+      label-content: 内容
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: 拖放CSV文件至此或点击选择文件
+      label-paste-your-csv-content: 粘贴您的CSV内容：
+      placeholder-your-csv: 您的CSV...
+      label-typed-values: 已输入值
+      label-nestify-a-b-c-to-nested-objects: 嵌套化（将'a.b.c'转为嵌套对象）
+      label-select-output-format: 选择输出格式：
+      placeholder-select-format: 选择格式
+      label-table-name: 表名：
+      title-converted-data: 转换后数据
+      tag-convert: 转换
+      label-xlsx: XLSX

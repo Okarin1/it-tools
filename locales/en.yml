@@ -409,3 +409,30 @@ tools:
       placeholder-your-json: Your JSON
     title: JSON to Data
     description: Convert JSON to CSV, SQL Insert, YAML, Markdown, XML and XLSX
+
+  csv-to-data:
+    title: Csv to Data
+    description: Convert CSV file to JSON, YAML, CSV, SQL INSERT, XML, Markdown or XLSX
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL INSERT
+      label-csv-comma: CSV (comma)
+      label-csv-semicolon: CSV (semicolon)
+      label-csv-tab: CSV (tab)
+      label-markdown: Markdown
+      label-xml: XML
+      title-csv-converter: CSV Converter
+      label-file: File
+      label-content: Content
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: Drag and drop a CSV file here, or click to select a file
+      label-paste-your-csv-content: 'Paste your CSV Content:'
+      placeholder-your-csv: Your CSV...
+      label-typed-values: Typed Values
+      label-nestify-a-b-c-to-nested-objects: Nestify ('a.b.c' to nested objects)
+      label-select-output-format: 'Select output format:'
+      placeholder-select-format: Select format
+      label-table-name: 'Table Name:'
+      title-converted-data: Converted data
+      tag-convert: Convert
+      label-xlsx: XLSX
