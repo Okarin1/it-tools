@@ -4,7 +4,7 @@ home:
     favoriteTools: 'Your favorite tools'
     allTools: 'All the tools'
     favoritesDndToolTip: 'Drag and drop to reorder favorites'
-  subtitle: 'Useful tools for Okarin'
+  subtitle: 'Useful tools'
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
