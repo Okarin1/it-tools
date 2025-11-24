@@ -436,3 +436,14 @@ tools:
       title-converted-data: Converted data
       tag-convert: Convert
       label-xlsx: XLSX
+  my-ip:
+    title: My IP Address  
+    description: Get your client IP Address (IPv4) using https://ipv4.geojs.io/
+    texts:
+      label-ipv4: 'IP:'
+      placeholder-your-ipv4: Your IPv4
+      label-country: 'Country:'
+      label-city: 'City:'
+      label-timezone: 'Timezone:'
+      label-organization: 'Organization:'
+      tag-refresh: Refresh

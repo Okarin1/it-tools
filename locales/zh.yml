@@ -432,3 +432,15 @@ tools:
       title-converted-data: 转换后数据
       tag-convert: 转换
       label-xlsx: XLSX
+  my-ip:
+    title: IP地址查询
+    description: 使用https://ipv4.geojs.io/获取您的IP地址（IPv4）
+    texts:
+      label-ipv4: IP：
+      placeholder-your-ipv4: 您的IPv4
+      label-country: 国家：
+      label-city: 城市：
+      label-timezone: 时区：
+      label-organization: 组织：
+      tag-refresh: 刷新
+      

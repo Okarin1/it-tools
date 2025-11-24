@@ -1,6 +1,7 @@
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as textToUnicode } from './text-to-unicode';
+import { tool as myIp } from './my-ip';
 import { tool as textDiff } from './text-diff';
 import { tool as emojiPicker } from './emoji-picker';
 import { tool as listConverter } from './list-converter';
@@ -42,6 +43,7 @@ export const toolsByCategory: ToolCategory[] = [
     name: 'Web',
     components: [
       qrCodeGenerator,
+      myIp,
     ],
   },
   {
