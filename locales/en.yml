@@ -128,6 +128,73 @@ tools:
   crontab-generator:
     title: Crontab generator
     description: Validate and generate crontab and get the human-readable description of the cron schedule.
+    texts:
+      cardTitle: Cron Expression Generator
+      resultTitle: Generated Cron Expression
+      invalid: Invalid Cron Expression
+      tabs:
+        second: Seconds
+        minute: Minutes
+        hour: Hours
+        day: Day
+        month: Month
+        week: Week
+        year: Year
+      common:
+        from: From
+        to: To
+        every: Every
+        cycle: Cycle
+        interval: Interval
+        specific: Specific
+        startingAt: starting at
+        minuteUnit: minute(s)
+        hourUnit: hour(s)
+        dayUnit: day(s)
+        monthUnit: month(s)
+        weekEvery: Every week
+        weekNone: No specific week (leave for Day)
+        secondUnit: second(s)
+        yearUnit: year(s)
+      mode:
+        standard: 'Standard (5 fields)'
+        advanced: 'Advanced (7 fields: second, minute, hour, day, month, week, year)'
+      second:
+        every: Every second
+        cycle: Second cycle
+        interval: Second interval
+        specific: Specific seconds
+      minute:
+        every: Every minute
+        cycle: Minute cycle
+        interval: Minute interval
+        specific: Specific minutes
+      hour:
+        every: Every hour
+        cycle: Hour cycle
+        interval: Hour interval
+        specific: Specific hours
+      day:
+        every: Every day
+        none: No specific day (leave for Week)
+        cycle: Day cycle
+        interval: Day interval
+        specific: Specific days
+      month:
+        every: Every month
+        cycle: Month cycle
+        interval: Month interval
+        specific: Specific months
+      week:
+        every: Every week
+        none: No specific week (leave for Day)
+        cycle: Week cycle
+        specific: Specific weekdays
+      year:
+        every: Every year
+        cycle: Year cycle
+        interval: Year interval
+        specific: Specific years
 
   http-status-codes:
     title: HTTP status codes

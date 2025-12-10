@@ -126,6 +126,73 @@ tools:
   crontab-generator:
     title: Crontab 表达式生成
     description: 验证并生成crontab，并获取cron调度的可读描述。
+    texts:
+      cardTitle: Crontab 表达式生成
+      resultTitle: 生成的 Cron 表达式
+      invalid: 无效的 Cron 表达式
+      tabs:
+        second: 秒
+        minute: 分钟
+        hour: 小时
+        day: 日期
+        month: 月份
+        week: 星期
+        year: 年
+      common:
+        from: 从
+        to: 到
+        every: 每
+        cycle: 循环
+        interval: 间隔
+        specific: 指定
+        startingAt: 开始于
+        minuteUnit: 分钟
+        hourUnit: 小时
+        dayUnit: 天
+        monthUnit: 月
+        weekEvery: 每周
+        weekNone: 不指定星期（由“日期”控制）
+        secondUnit: 秒
+        yearUnit: 年
+      mode:
+        standard: '标准（5 字段）'
+        advanced: '高级（7 字段：秒 分 时 日 月 周 年）'
+      second:
+        every: 每秒
+        cycle: 秒循环
+        interval: 秒间隔
+        specific: 指定秒
+      minute:
+        every: 每分钟
+        cycle: 分钟循环
+        interval: 分钟间隔
+        specific: 指定分钟
+      hour:
+        every: 每小时
+        cycle: 小时循环
+        interval: 小时间隔
+        specific: 指定小时
+      day:
+        every: 每天
+        none: 不指定日期（由“星期”控制）
+        cycle: 日期循环
+        interval: 日期间隔
+        specific: 指定日期
+      month:
+        every: 每月
+        cycle: 月份循环
+        interval: 月份间隔
+        specific: 指定月份
+      week:
+        every: 每周
+        none: 不指定星期（由“日期”控制）
+        cycle: 星期循环
+        specific: 指定星期
+      year:
+        every: 每年
+        cycle: 年循环
+        interval: 年间隔
+        specific: 指定年份
 
   http-status-codes:
     title: HTTP 状态码
