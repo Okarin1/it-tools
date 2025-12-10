@@ -23,6 +23,14 @@
 
     <!-- Configuration Tabs -->
     <div class="mb-6">
+      <!-- 6/7 Field Toggle (advanced mode only) -->
+      <div v-if="isAdvanced" class="mb-4 flex items-center gap-4">
+        <span class="text-sm font-medium">{{ t('tools.crontab-generator.texts.advancedFields') }}:</span>
+        <label class="flex items-center gap-2 cursor-pointer">
+          <n-switch v-model:value="isSevenFieldMode" />
+        </label>
+      </div>
+
       <c-buttons-select
         :value="currentTab"
         :options="tabOptions"
@@ -454,6 +462,16 @@ interface CronState {
 const cronMode = ref<'standard' | 'advanced'>('standard');
 const isAdvanced = computed(() => cronMode.value === 'advanced');
 
+const advancedFieldCount = ref<6 | 7>(6);
+const isSevenFieldMode = computed({
+  get: () => isAdvanced.value && advancedFieldCount.value === 7,
+  set: (value: boolean) => {
+    if (isAdvanced.value) {
+      advancedFieldCount.value = value ? 7 : 6;
+    }
+  }
+});
+
 const modeOptions = computed(() => [
   { value: 'standard', label: t('tools.crontab-generator.texts.mode.standard') },
   { value: 'advanced', label: t('tools.crontab-generator.texts.mode.advanced') },
@@ -470,7 +488,9 @@ const tabOptions = computed(() => {
 
   if (isAdvanced.value) {
     base.unshift({ value: 'second', label: t('tools.crontab-generator.texts.tabs.second') });
-    base.push({ value: 'year', label: t('tools.crontab-generator.texts.tabs.year') });
+    if (advancedFieldCount.value === 7) {
+      base.push({ value: 'year', label: t('tools.crontab-generator.texts.tabs.year') });
+    }
   }
 
   return base;
@@ -533,8 +553,11 @@ const cronString = computed(() => {
 
   if (isAdvanced.value) {
     const secondExpr = generateField(second);
-    const yearExpr = generateField(year);
-    return `${secondExpr} ${base} ${yearExpr}`;
+    if (advancedFieldCount.value === 7) {
+      const yearExpr = generateField(year);
+      return `${secondExpr} ${base} ${yearExpr}`;
+    }
+    return `${secondExpr} ${base}`;
   }
 
   return base;
