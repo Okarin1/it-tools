@@ -39,3 +39,7 @@ declare module 'pdf-signature-reader' {
 
   export default verifySignature;
 }
+
+declare module 'nestify-anything' {
+  export function nestifyObject(payload: Record<string, unknown>): Record<string, unknown>;
+}

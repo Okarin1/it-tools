@@ -55,7 +55,7 @@ export const toolsByCategory: ToolCategory[] = [
       jsonDiff,
       jsonToData,
       sqlPrettify,
-      crontabGenerator
+      crontabGenerator,
     ],
   },
   {

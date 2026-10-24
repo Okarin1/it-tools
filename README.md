@@ -4,7 +4,9 @@
     <img src="./.github/logo-dark.png" alt="logo">
 </picture>
 
-Useful tools for developer and people working in IT. [Have a look !](https://it-tools.tech).
+A personal collection of useful tools for developers and people working in IT.
+
+This project is based on [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools). I have adapted it for my own use and added tools and features such as a crontab generator, IP information lookup, and JSON data utilities.
 
 ## Sponsors
 
@@ -12,24 +14,18 @@ Useful tools for developer and people working in IT. [Have a look !](https://it-
 
 ## Functionalities and roadmap
 
-Please check the [issues](https://github.com/CorentinTh/it-tools/issues) to see if some feature listed to be implemented.
+Please check the [issues](https://github.com/Okarin1/it-tools/issues) to see planned improvements.
 
-You have an idea of a tool? Submit a [feature request](https://github.com/CorentinTh/it-tools/issues/new/choose)!
+Have an idea for a tool? Submit a [feature request](https://github.com/Okarin1/it-tools/issues/new/choose)!
 
 ## Self host
 
 Self host solutions for your homelab
 
-**From docker hub:**
-
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest
-```
-
 **From github packages:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
+docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/okarin1/it-tools:latest
 ```
 
 **Other solutions:**
@@ -121,7 +117,7 @@ Big thanks to all the people who have already contributed!
 
 ## Credits
 
-Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
+This fork is maintained by [Okarin](https://github.com/Okarin1) and is based on the original [IT-Tools](https://github.com/CorentinTh/it-tools) project created by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
 
 This project is continuously deployed using [vercel.com](https://vercel.com).
 

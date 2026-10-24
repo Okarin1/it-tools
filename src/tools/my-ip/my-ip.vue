@@ -4,28 +4,29 @@ import { computedRefreshableAsync } from '@/composable/computedRefreshable';
 
 const { t } = useI18n();
 
-const API_URL = "https://get.geojs.io/v1/ip/geo.json";
+const API_URL = 'https://get.geojs.io/v1/ip/geo.json';
 
 const [clientIPDetails, refreshClientIP] = computedRefreshableAsync(async () => {
   let data: any = {};
-  let error = "";
+  let error = '';
 
   try {
     const res = await fetch(API_URL);
     data = await res.json();
-  } catch (e: any) {
+  }
+  catch (e: any) {
     error = e.toString();
   }
 
   return {
     ipv4: data.ip ?? `ERROR: ${error || 'Unknown'}`,
-    ipv6: "",
+    ipv6: '',
 
     location: {
-      country: `${data.country ?? ""}（${data.country_code ?? ""}）`,
+      country: `${data.country ?? ''}（${data.country_code ?? ''}）`,
       city: `${data.region ?? ''}/${data.city ?? ''}`,
-      timezone: data.timezone ?? "",
-      organization: data.organization ?? ""
+      timezone: data.timezone ?? '',
+      organization: data.organization ?? '',
     },
   };
 });
@@ -40,7 +41,7 @@ const [clientIPDetails, refreshClientIP] = computedRefreshableAsync(async () => 
       <input-copyable v-model:value="clientIPDetails.location.timezone" label-position="left" label-width="100px" label-align="left" readonly :label="t('tools.my-ip.texts.label-timezone')" />
       <input-copyable v-model:value="clientIPDetails.location.organization" label-position="left" label-width="100px" label-align="left" readonly :label="t('tools.my-ip.texts.label-organization')" />
     </div>
-    <div flex justify-center gap-3 mt-3>
+    <div mt-3 flex justify-center gap-3>
       <c-button @click="refreshClientIP">
         {{ t('tools.my-ip.texts.tag-refresh') }}
       </c-button>

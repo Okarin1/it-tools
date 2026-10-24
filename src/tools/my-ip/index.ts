@@ -9,5 +9,5 @@ export const tool = defineTool({
   keywords: ['my', 'client', 'ip'],
   component: () => import('./my-ip.vue'),
   icon: World,
-  createdAt: new Date('2025-11-24')
+  createdAt: new Date('2025-11-24'),
 });
