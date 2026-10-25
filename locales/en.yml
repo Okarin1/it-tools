@@ -75,7 +75,35 @@ tools:
 
   chronometer:
     title: Chronometer
-    description: Monitor the duration of a thing. Basically a chronometer with simple chronometer features.
+    description: View your local millisecond clock, use a stopwatch, countdown, or Pomodoro timer.
+    texts:
+      localClock: Local time
+      stopwatch: Stopwatch
+      countdown: Countdown
+      worldClock: World clock
+      pomodoro: Pomodoro
+      focus: Focus
+      shortBreak: Short break
+      longBreak: Long break
+      start: Start
+      pause: Pause
+      reset: Reset
+      skip: Skip
+      hours: Hours
+      minutes: Minutes
+      seconds: Seconds
+      completed: Focus sessions completed
+      desktopReminder: Desktop reminder notifications
+      desktopNotificationsBlocked: Notifications are blocked; allow them in browser settings
+      desktopNotificationsUnsupported: Desktop notifications are not supported in this browser
+      countdownNotificationTitle: Countdown finished
+      countdownNotificationBody: Your countdown has ended.
+      focusNotificationTitle: Focus finished
+      focusNotificationBody: 'The focus session has ended. Next: {nextPhase}'
+      shortBreakNotificationTitle: Short break finished
+      shortBreakNotificationBody: 'The short break has ended. Next: {nextPhase}'
+      longBreakNotificationTitle: Long break finished
+      longBreakNotificationBody: 'The long break has ended. Next: {nextPhase}'
 
   token-generator:
     title: Token generator
@@ -448,8 +476,8 @@ tools:
     description: Generate and validate time-based OTP (one time password) for multi-factor authentication.
 
   url-encoder:
-    title: Encode/decode URL-formatted strings
-    description: Encode text to URL-encoded format (also known as "percent-encoded"), or decode from it.
+    title: URL Encoder/Decoder
+    description: Encode or decode URL components using percent encoding.
 
   text-to-binary:
     title: Text to ASCII binary

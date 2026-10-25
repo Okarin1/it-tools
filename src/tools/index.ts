@@ -20,6 +20,8 @@ import { tool as sqlPrettify } from './sql-prettify';
 import { tool as qrCodeGenerator } from './qr-code-generator';
 import { tool as fancyTextConverter } from './fancy-text-converter';
 import { tool as jsonToData } from './json-to-data';
+import { tool as urlEncoder } from './url-encoder';
+import { tool as chronometer } from './chronometer';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -37,6 +39,7 @@ export const toolsByCategory: ToolCategory[] = [
       textToUnicode,
       listConverter,
       fancyTextConverter,
+      urlEncoder,
     ],
   },
   {
@@ -64,6 +67,10 @@ export const toolsByCategory: ToolCategory[] = [
       textDiff,
       asciiTextDrawer,
     ],
+  },
+  {
+    name: 'Measurement',
+    components: [chronometer],
   },
 ];
 

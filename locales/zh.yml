@@ -75,7 +75,35 @@ tools:
 
   chronometer:
     title: 计时器
-    description: 监控事物的持续时间。基本上是一种具有简单计时器功能的计时器。
+    description: 查看本地时区毫秒时钟，使用秒表、倒计时或番茄钟。
+    texts:
+      localClock: 本地时间
+      stopwatch: 秒表
+      countdown: 倒计时
+      worldClock: 世界时钟
+      pomodoro: 番茄钟
+      focus: 专注
+      shortBreak: 短休息
+      longBreak: 长休息
+      start: 开始
+      pause: 暂停
+      reset: 重置
+      skip: 跳过
+      hours: 小时
+      minutes: 分钟
+      seconds: 秒
+      completed: 已完成专注轮数
+      desktopReminder: 桌面提醒通知
+      desktopNotificationsBlocked: 通知权限已被阻止，请在浏览器设置中允许
+      desktopNotificationsUnsupported: 当前浏览器不支持桌面通知
+      countdownNotificationTitle: 倒计时结束
+      countdownNotificationBody: 你设置的倒计时已经结束。
+      focusNotificationTitle: 专注结束
+      focusNotificationBody: 专注时段结束。下一阶段：{nextPhase}
+      shortBreakNotificationTitle: 短休息结束
+      shortBreakNotificationBody: 短休息结束。下一阶段：{nextPhase}
+      longBreakNotificationTitle: 长休息结束
+      longBreakNotificationBody: 长休息结束。下一阶段：{nextPhase}
   token-generator:
     title: Token 生成器
     description: 使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。
@@ -444,8 +472,8 @@ tools:
     description: 为多因素身份验证生成和验证基于时间的OTP（一次性密码）。
 
   url-encoder:
-    title: 编码/解码url格式的字符串
-    description: 编码为url编码格式（也称为“百分比编码”）或从中解码。
+    title: URL编码/解码
+    description: 使用百分号编码来编码或解码 URL 组件。
 
   text-to-binary:
     title: 文本到 ASCII 二进制

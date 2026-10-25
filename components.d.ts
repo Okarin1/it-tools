@@ -29,6 +29,7 @@ declare module '@vue/runtime-core' {
     CDiffEditor: typeof import('./src/ui/c-diff-editor/c-diff-editor.vue')['default']
     CFileUpload: typeof import('./src/ui/c-file-upload/c-file-upload.vue')['default']
     'CFileUpload.demo': typeof import('./src/ui/c-file-upload/c-file-upload.demo.vue')['default']
+    Chronometer: typeof import('./src/tools/chronometer/chronometer.vue')['default']
     CInputText: typeof import('./src/ui/c-input-text/c-input-text.vue')['default']
     'CInputText.demo': typeof import('./src/ui/c-input-text/c-input-text.demo.vue')['default']
     CKeyValueList: typeof import('./src/ui/c-key-value-list/c-key-value-list.vue')['default']
@@ -87,6 +88,7 @@ declare module '@vue/runtime-core' {
     MenuIconItem: typeof import('./src/components/MenuIconItem.vue')['default']
     MenuLayout: typeof import('./src/components/MenuLayout.vue')['default']
     MyIp: typeof import('./src/tools/my-ip/my-ip.vue')['default']
+    NAlert: typeof import('naive-ui')['NAlert']
     NavbarButtons: typeof import('./src/components/NavbarButtons.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
@@ -131,6 +133,7 @@ declare module '@vue/runtime-core' {
     'TokenGenerator.tool': typeof import('./src/tools/token-generator/token-generator.tool.vue')['default']
     'Tool.layout': typeof import('./src/layouts/tool.layout.vue')['default']
     ToolCard: typeof import('./src/components/ToolCard.vue')['default']
+    UrlEncoder: typeof import('./src/tools/url-encoder/url-encoder.vue')['default']
     UuidGenerator: typeof import('./src/tools/uuid-generator/uuid-generator.vue')['default']
   }
 }
