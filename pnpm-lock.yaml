@@ -89,9 +89,6 @@ importers:
       email-normalizer:
         specifier: ^1.0.0
         version: 1.0.0
-      emojilib:
-        specifier: ^3.0.10
-        version: 3.0.10
       figlet:
         specifier: ^1.7.0
         version: 1.7.0
@@ -179,9 +176,6 @@ importers:
       ulid:
         specifier: ^2.3.0
         version: 2.3.0
-      unicode-emoji-json:
-        specifier: ^0.4.0
-        version: 0.4.0
       unplugin-auto-import:
         specifier: ^0.16.4
         version: 0.16.4(@vueuse/core@10.3.0(vue@3.3.4))(rollup@2.79.2)
@@ -2983,9 +2977,6 @@ packages:
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
-  emojilib@3.0.10:
-    resolution: {integrity: sha512-VQtCRroFykPTJaoEBEGFg5tI+rEluabjuaVDDbSftDtiRJ5GuqRG/LGV1mmDzkJP4bh5rzuEBOafMN68/YXQcQ==}
-
   encode-utf8@1.0.3:
     resolution: {integrity: sha512-ucAnuBEhUK4boH2HjVYG5Q2mQyPorvv0u/ocS+zhdw0S8AlHYY+GOFhP1Gio5z4icpP2ivFSvhtFjQi8+T9ppw==}
 
@@ -5262,9 +5253,6 @@ packages:
   unicode-canonical-property-names-ecmascript@2.0.1:
     resolution: {integrity: sha512-dA8WbNeb2a6oQzAQ55YlT5vQAWGV9WXOsi3SskE3bcCdM0P4SDd+24zS/OCacdRq5BkdsRj9q3Pg6YyQoxIGqg==}
     engines: {node: '>=4'}
-
-  unicode-emoji-json@0.4.0:
-    resolution: {integrity: sha512-lVNOwh2AnmbwqtSrEVjAWKQoVzWgyWmXVqPuPkPfKb0tnA0+uYN/4ILCTdy9IRj/+3drAVhmjwjNJQr2dhCwnA==}
 
   unicode-match-property-ecmascript@2.0.0:
     resolution: {integrity: sha512-5kaZCrbp5mmbz5ulBkDkbY0SsPOjKqVS35VpL9ulMPfSl0J0Xsm+9Evphv9CoIZFwre7aJoa94AY6seMKGVN5Q==}
@@ -8892,8 +8880,6 @@ snapshots:
 
   emoji-regex@8.0.0: {}
 
-  emojilib@3.0.10: {}
-
   encode-utf8@1.0.3: {}
 
   enquirer@2.4.1:
@@ -11427,8 +11413,6 @@ snapshots:
       hookable: 5.5.3
 
   unicode-canonical-property-names-ecmascript@2.0.1: {}
-
-  unicode-emoji-json@0.4.0: {}
 
   unicode-match-property-ecmascript@2.0.0:
     dependencies:

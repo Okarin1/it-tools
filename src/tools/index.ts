@@ -4,7 +4,6 @@ import { tool as textToUnicode } from './text-to-unicode';
 import { tool as crontabGenerator } from './crontab-generator';
 import { tool as myIp } from './my-ip';
 import { tool as textDiff } from './text-diff';
-import { tool as emojiPicker } from './emoji-picker';
 import { tool as listConverter } from './list-converter';
 import { tool as jsonDiff } from './json-diff';
 import { tool as caseConverter } from './case-converter';
@@ -62,7 +61,6 @@ export const toolsByCategory: ToolCategory[] = [
     name: 'Text',
     components: [
       textStatistics,
-      emojiPicker,
       textDiff,
       asciiTextDrawer,
     ],

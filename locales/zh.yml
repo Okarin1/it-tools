@@ -110,10 +110,6 @@ tools:
     title: Keycode 信息
     description: 查找任何按下的键的javascript键代码、代码、位置和修饰符。
 
-  emoji-picker:
-    title: Emoji 选择器
-    description: 轻松复制和粘贴Emoji表情符号，并获得每个表情符号的unicode和code points值.
-
   color-converter:
     title: Color 选择器
     description: 在不同格式（十六进制、rgb、hsl和css名称）之间转换颜色

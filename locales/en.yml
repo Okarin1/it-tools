@@ -111,10 +111,6 @@ tools:
     title: Keycode info
     description: Find the javascript keycode, code, location and modifiers of any pressed key.
 
-  emoji-picker:
-    title: Emoji picker
-    description: Copy and paste emojis easily and get the unicode and code points value of each emoji.
-
   color-converter:
     title: Color converter
     description: Convert color between the different formats (hex, rgb, hsl and css name)
